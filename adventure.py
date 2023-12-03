@@ -146,8 +146,8 @@ def main():
             print("\nUse 'quit' to exit.")
             continue
         except KeyboardInterrupt:
-            print("Traceback (most recent call last):\n")
-            print("  ...\n")
+            print("Traceback (most recent call last):")
+            print("  ...")
             print("KeyboardInterrupt")
             sys.exit(0)
 
