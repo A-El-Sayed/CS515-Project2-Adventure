@@ -149,6 +149,7 @@ def main():
             print("Traceback (most recent call last):\n")
             print("  ...\n")
             print("KeyboardInterrupt")
+            sys.exit(0)
 
         if not game_command:
             continue
